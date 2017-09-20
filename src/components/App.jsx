@@ -1,10 +1,11 @@
 import React from "react";
+import Game from "./Game";
 
 function App(props){
   return (
     <div>
-      <h3>Get to Coding!</h3>
-      <p><em>Template provided by The Dylan Lewis</em></p>
+       <link rel="stylesheet" type="text/css" href="./../styles.css"/>
+      <Game/>
     </div>
   );
 }
