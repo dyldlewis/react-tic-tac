@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Square from "./Square";
+import constants from "../constants"
 
 class Board extends React.Component {
   constructor() {
